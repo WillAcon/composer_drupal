@@ -5,7 +5,7 @@
     "license": "GPL-2.0-or-later",
     "authors": [
         {
-            "name": "",
+            "name": "Williams",
             "role": ""
         }
     ],
@@ -32,11 +32,12 @@
             "type":"package",
               "package": {
                 "name": "willacon/youtube",
-                "version": "2.1.10",
-                "type":"drupal-libraries",
-                "source": {
-                    "url": " https://download.ckeditor.com/youtube/releases/youtube_2.1.10.zip",
-                    "type": "zip"
+                "version": "master",
+                "type":"drupal-library",
+                "dist": {
+                    "url": "https://download.ckeditor.com/youtube/releases/youtube_2.1.10.zip",
+                    "type": "zip",
+                    "reference":"master"
                   }
               }
         },
@@ -90,7 +91,7 @@
         "webflo/drupal-finder": "^1.0",
         "webmozart/path-util": "^2.3",
         "willacon/drupal_base": "dev-master",
-        "willacon/youtube": "2.1.10"
+        "willacon/youtube": "dev-master"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev": "~8.4"
@@ -129,7 +130,7 @@
             "web/core": [
                 "type:drupal-core"
             ],
-            "web/libraries/{$name}": [
+            "web/libraries": [
                 "type:drupal-library",
                 "type:bower-asset",
                 "type:npm-asset"
