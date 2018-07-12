@@ -1,5 +1,9 @@
-# Install profile basic of drupal 8 with composer
+# Install restaurant profile basic of drupal 8 with composer
 
+
+```
+This profile is to create restaurant websites
+```
 
 ### Prerequisites
 
